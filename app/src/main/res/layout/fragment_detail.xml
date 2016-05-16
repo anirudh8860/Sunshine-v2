@@ -35,7 +35,8 @@
             android:layout_height="match_parent"
             android:layout_marginTop="16dp"
             android:layout_width="match_parent"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:elevation="5dp">
 
             <LinearLayout
                 android:gravity="left"
@@ -86,7 +87,8 @@
             android:layout_marginRight="0dp"
             android:layout_marginTop="16dp"
             android:layout_width="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:elevation="5dp">
 
             <TextView
                 android:id="@+id/detail_humidity_textview"
